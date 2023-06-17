@@ -1,0 +1,23 @@
+---
+:scope: 
+:url: https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT
+:body: '["O43z0dpjhgX20SCx4KAo","$9Wo5ajdRAAYip2BrAqfesWi9aScTuy6nADkAIwj8RlPQHKkuguhY3lD8aC9w9cpBetlWEHxIjdS_IjN9VkPOXO9fcfitvuWuz-unn1nFanWozKKeAAAAIc4AAAAC9AEHlgGGts-d66KzHIbtfs6C68s-xRr7i83hCNUjQYn678L05aPdWZcWkqEneEUmgrwagE5UC4WrNjDHvGFj83AHDz48iMR8WwCtwTFb4hfwyUlyCpsPvL_6B5hL91ra-pLckuWi50hjniIK81EEq29eGQWs4X6XVVtPzO6ezNhx_gVdqc5--Dv5A3z1uuauuSJciiQ8ElmI2jaz5k-Cb4wOeJ4OhJvnLA6hhVSGtOpB85X08DCUcYfIbWvYH6C7ZsZWDt7HL5up-Q2NFXYkKIloDqDma9gpqglr-h3XaYu85WuNf3MHA8nF2Wirq1G1u0_u2zjRTtugwYSSk053e88VyPBmzuQIKirYxOWIJhtlAv2-hUSESyka8OhNMKbAUMhcDts4-NEV1LhndhLX8CgYjfIdBH9W1KEcscaroMlLrpm1kp1CdTYru56OPfJe2Z0XX4doj1jMDC-cyxv6YqsFnShUO86g7gsYinPQBrBswwwJVav6srgPdDkykueYGymdjzsvFpBq_uKUBQFBBc97MJAYbKNdIJt3n5-K3eldqzG6Rr7VOHrAy767hzDi287pMeGfh39EIgCoVug3XjCrZdI1UxPvJd0cBE_SPYEsV_rdmQwlFPfg8xpqHjBPYSXdqpW7aKvTDVk3dBaeFG0rtBvHqtd_ytmc9Ugd40dk9ojh-fZmyqZCgw-KzD4XhJwKuXHNsoBZJ7BnnpUB-QHPoL7_jwBwXvY49_sywHaRdVpYulGcnaRjUwymVxa6-Y-13VNCmX6_kiiTPWvs2aZnIZvoQSXPXbPwni68m7-B7gf31NM6ygPmoca-CQ2_ZFhoGYGfellmgBil-quvF3jgWrrAIPPd7u-udxfnKMcvwVOmvYcZcyNyBR2S3T4VIdU7FEyy6X8FS2hftqrBafac-scmxCxPadZO_QEuFFeUNxZ1n9yDv3je4-NvOLCQ"]'
+:status: 200
+:method: post
+:headers:
+  Content-Type: application/json+protobuf; charset=UTF-8
+  Vary:
+  - X-Origin
+  - Referer
+  - Origin,Accept-Encoding
+  Date: Sat, 17 Jun 2023 17:00:45 GMT
+  Server: ESF
+  Cache-Control: private
+  X-XSS-Protection: '0'
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+  Accept-Ranges: none
+  Connection: close
+  Transfer-Encoding: chunked
+:content: '["goQPkxH0/kZJjQfwJc7lmqhwtKrMMFIDsBP0e1QivRc6YrXf3dFyIr9q8tuKnc6URUWHDls4xdH9VnI=",43200,100]'

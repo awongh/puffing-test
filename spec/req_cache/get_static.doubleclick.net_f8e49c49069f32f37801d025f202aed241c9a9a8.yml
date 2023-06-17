@@ -1,0 +1,28 @@
+---
+:scope: 
+:url: https://static.doubleclick.net/instream/ad_status.js
+:body: ''
+:status: 200
+:method: get
+:headers:
+  Accept-Ranges: bytes
+  Access-Control-Allow-Origin: "*"
+  Cross-Origin-Resource-Policy: cross-origin
+  Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="ads-doubleclick-media"
+  Report-To: '{"group":"ads-doubleclick-media","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/ads-doubleclick-media"}]}'
+  Timing-Allow-Origin: "*"
+  Content-Length: '29'
+  X-Content-Type-Options: nosniff
+  Server: sffe
+  X-XSS-Protection: '0'
+  Date: Sat, 17 Jun 2023 16:59:03 GMT
+  Expires: Sat, 17 Jun 2023 17:14:03 GMT
+  Cache-Control: public, max-age=900
+  Age: '101'
+  Last-Modified: Thu, 12 Dec 2013 23:40:16 GMT
+  Content-Type: text/javascript
+  Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+  Connection: close
+:content: 'window.google_ad_status = 1;
+
+'
