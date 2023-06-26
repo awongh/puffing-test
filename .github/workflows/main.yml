@@ -71,4 +71,4 @@ jobs:
           #RUBYOPT: "-W:no-deprecated -W:no-experimental" # Suppress Rails 6 deprecation warnings for ruby 2.7
         run: |
           bundle exec rails db:setup
-          bundle exec rspec --color --format documentation spec
+          bundle exec rspec --color --format documentation --require ./spec/rails_helper spec
