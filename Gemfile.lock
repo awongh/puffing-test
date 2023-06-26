@@ -160,6 +160,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
+    pg (1.5.3)
     public_suffix (5.0.1)
     puffing-billy (3.1.0)
       addressable (~> 2.5)
@@ -280,6 +281,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  pg
   puffing-billy
   puma (~> 5.0)
   rails (~> 7.0.4)
