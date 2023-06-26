@@ -38,12 +38,7 @@
     setTimeout(async ()=>{
       const element = document.querySelector('#hello');
 
-      const data1 = await postData("https://httpbin.org/post", { answer: 'testing!' });
-
-      console.log('data1',data1);
-      element.innerText = element.innerText + JSON.stringify(data1);
-
-      const query = {"query":"query homeShopInfo {\n  shop {\n    description\n  }\n}","variables":{}};
+          const query = {"query":"query homeShopInfo {\n  shop {\n    description\n  }\n}","variables":{}};
       const data2 = await postData("https://hydrogen-preview.myshopify.com/api/2022-04/graphql.json", query);
 
       console.log('data2',data2);

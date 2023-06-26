@@ -1,0 +1,49 @@
+---
+:scope: 
+:url: https://hydrogen-preview.myshopify.com:443/api/2022-04/graphql.json
+:body: '{"query":"query homeShopInfo {\n  shop {\n    description\n  }\n}","variables":{}}'
+:status: 200
+:method: post
+:headers:
+  Date: Mon, 26 Jun 2023 10:10:57 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: close
+  X-Sorting-Hat-PodId: '55'
+  X-Sorting-Hat-ShopId: '55145660472'
+  X-Storefront-Renderer-Rendered: '1'
+  Vary:
+  - Accept-Encoding
+  - Accept
+  X-Shopify-API-Version-Warning: https://shopify.dev/concepts/about-apis/versioning
+  X-Frame-Options: DENY
+  Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+  Access-Control-Allow-Origin: "*"
+  X-Shopify-API-Version: 2022-04
+  X-Cache: hit, server
+  X-ShopId: '55145660472'
+  X-ShardId: '55'
+  Content-Language: en-US
+  powered-by: Shopify
+  Server-Timing:
+  - processing;dur=11, db;dur=6, asn;desc="206092", edge;desc="HKG", country;desc="TW",
+    servedBy;desc="2dhq", graphql;desc="storefront/query/other", requestID;desc="08f19b9a-5d7f-4259-9210-b5c77acda432"
+  - cfRequestDuration;dur=85.999966
+  X-Shopify-Stage: production
+  X-Dc: gcp-asia-east2,gcp-asia-southeast1,gcp-asia-southeast1
+  X-Request-ID: '08f19b9a-5d7f-4259-9210-b5c77acda432'
+  X-Content-Type-Options: nosniff
+  X-Download-Options: noopen
+  X-XSS-Protection: 1; mode=block
+  X-Permitted-Cross-Domain-Policies: none
+  CF-Cache-Status: DYNAMIC
+  Set-Cookie: __cf_bm=jNGOVlP.cPyPpK0FbKdrCgjSxnIhEktdNA03cNVZsnU-1687774257-0-AZdijEyDtSwVtxbPrASXjWn6rxYHHcbILZWLEm+PsA57EWhlY8bnVRetOV+KmLwwqK7pMt4m3fqTfRuuyHxONtM=;
+    path=/; expires=Mon, 26-Jun-23 10:40:57 GMT; domain=.myshopify.com; HttpOnly;
+    Secure; SameSite=None
+  Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=N47YvHVGIzSBv89j50AAPWx9YbA39PJb2aqv%2FtFC2yB7%2BFEALxX0U6FvfWAxCIeK8CGG6K%2Bi4eRZtrxN4JnyWM13OSfT23HAznXClQWvPoj%2FAr5%2BLokNkslFRhDsLAXp%2BipCzkl8VkWJYB0XdydtuQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+  NEL: '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+  Server: cloudflare
+  CF-RAY: 7dd4a9d5da42098d-HKG
+  alt-svc: h3=":443"; ma=86400
+:content: '{"data":{"shop":{"description":"A custom storefront powered by Hydrogen,
+  Shopify''s React-based framework for building headless."}}}'

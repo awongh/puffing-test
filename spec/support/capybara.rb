@@ -24,7 +24,7 @@ Billy.configure do |c|
   c.persist_cache = true
   c.ignore_cache_port = false # defaults to true
   c.non_successful_cache_disabled = false
-  c.non_successful_error_level = :warn
+  c.non_successful_error_level = :error
   c.cache_path = 'spec/req_cache'
   c.certs_path = 'spec/req_certs'
   #c.proxy_port = 12345 # defaults to random
@@ -56,6 +56,7 @@ Capybara.register_driver(:better_cuprite) do |app|
     opts[:headless] = !ENV['HEADLESS'].in?(%w[n 0 no false])
     logger = StringIO.new
     opts[:logger] = logger
+    opts[:timeout] = 100
   end
 
   driver = Capybara::Cuprite::Driver.new(app, options)
